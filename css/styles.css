@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
