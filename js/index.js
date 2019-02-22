@@ -1,10 +1,5 @@
-    $(function() {
-      $('#slides0').superslides({
-        hashchange: true
-      });
-    });
-    $(function() {
-      $('#slides1').superslides({
-        hashchange: true
+   $(function() {
+      $('#slides-1, #slides-2', '#slides-3').superslides({
+        hashchange: false
       });
     });
