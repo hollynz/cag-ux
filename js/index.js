@@ -1,4 +1,10 @@
-// let controlla1 = $('.sectionizr').sectionizr();
-let [controlla1, controlla2, controlla3, controlla4, controlla5] = $('.sectionizr').sectionizr();
-
-
+    $(function() {
+      $('.slides0').superslides({
+        hashchange: true
+      });
+    });
+    $(function() {
+      $('.slides1').superslides({
+        hashchange: true
+      });
+    });
