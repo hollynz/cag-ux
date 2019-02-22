@@ -1,5 +1,6 @@
 body {
-  font-family: 'Raleway', sans-serif;;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
 }
 
 .screen {
@@ -11,9 +12,9 @@ p {
   font-size: 1rem;
 }
 
-.container {
+/* .container {
   padding: 10%;
-}
+} */
 
 
 
@@ -50,19 +51,11 @@ body {
 }
 
 .sectionizr section {
-    font-size: 68px;
-    font-family: 'Bellefair', serif;
     color: #fff;
-    text-align: center;
     line-height: 100vh;
     transition: .5s ease-in-out
 }
 
-@media (max-width: 760px) {
-    .sectionizr section {
-        font-size: 200%
-    }
-}
 
 .sectionizr:not(.vertical)>.controls a {
     position: absolute;
