@@ -1,5 +1,10 @@
    $(function() {
-      $('#slides-1, #slides-2', '#slides-3').superslides({
+      $('#slides-1, #slides-2').superslides({
+        hashchange: false
+      });
+    });
+   $(function() {
+      $('#slides-3', '#slides-4').superslides({
         hashchange: false
       });
     });
