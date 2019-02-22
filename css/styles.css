@@ -34,11 +34,11 @@ body {
     overflow: hidden;
 }
 
-.cont {
+/* .cont {
   max-width: 80%;
   display: flex;
   white-space: normal;
-}
+} */
 
 .sectionizr>section:nth-child(1) {
     background: linear-gradient(to bottom right, #ffae1a 20%, orange 50%, #ffae1a)
