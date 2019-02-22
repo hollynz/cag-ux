@@ -12,6 +12,11 @@ p {
   font-size: 1rem;
 }
 
+.container {
+  white-space: normal;
+  overflow: auto !important;
+}
+
 /* .container {
   padding: 10%;
 } */
@@ -27,7 +32,7 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .sectionizr>section:nth-child(1) {
