@@ -1,6 +1,6 @@
    $(function() {
       $('#slides-1, #slides-2').superslides({
-        
+        pagination: true
       });
     });
    $(function() {

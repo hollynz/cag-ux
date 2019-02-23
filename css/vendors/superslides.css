@@ -31,7 +31,7 @@
   display: block;
 }
 .slides-navigation a.prev {
-  left: 0;
+  left: 10px;
 }
 .slides-navigation a.next {
   right: 0;
@@ -39,8 +39,8 @@
 
 .slides-pagination {
   position: absolute;
-  z-index: 3;
-  bottom: 0;
+  z-index: 1;
+  bottom: 10;
   text-align: center;
   width: 100%;
 }
