@@ -49,9 +49,9 @@ body {
   background-color: #6991ac;
   color: white;
   padding: 15px;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
 }
 
 .blue-grey-box {
@@ -66,6 +66,10 @@ body {
   background-color: #c3d7df;
   color: white;
   padding: 15px;
+}
+
+.border-left {
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 /* override superslides */
