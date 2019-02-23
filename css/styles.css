@@ -58,6 +58,7 @@ body {
   letter-spacing: 1.5px;
 }
 
+/* only way I can see to overwrite whatever is forcing element.style onto images */
 .p-icon {
   backface-visibility: visible !important;
   position: static !important;
@@ -66,12 +67,21 @@ body {
   width: 80px !important;
 }
 
+.statistic {
+  text-align: center;
+  color: #6991ac;
+  font-size: 12px;
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+/* only way I can see to overwrite whatever is forcing element.style onto images */
 .statistic img {
   backface-visibility: visible !important;
   position: static !important;
-  max-width: 80px !important;
+  max-width: 60px !important;
   height: auto !important;
-  width: 80px !important;
+  width: 60px !important;
 }
 
 .box-shadow {
