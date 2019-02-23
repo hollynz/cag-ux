@@ -3,6 +3,8 @@ body {
   margin: 0 auto;
 }
 
+/* only way I can see to overwrite superslides js forcing element.style onto images quickly */
+
 body img {
   backface-visibility: visible !important;
   position: static !important;
@@ -47,7 +49,6 @@ body {
   background-color: #6991ac;
   color: white;
   padding: 15px;
-  
 }
 
 .blue-grey-box {
@@ -60,6 +61,13 @@ body {
   background-color: #c3d7df;
   color: white;
   padding: 15px;
+}
+
+/* override superslides */
+.box-image {
+  max-width: 80px!important;
+  width: 80px!important;
+  height: auto!important;
 }
 
 .vertical-align {
@@ -98,10 +106,7 @@ body {
   letter-spacing: 1.5px;
 }
 
-/* only way I can see to overwrite superslides js forcing element.style onto images quickly */
 .p-icon {
-/*   backface-visibility: visible !important;
-  position: static !important; */
   max-width: 80px !important;
   height: auto !important;
   width: 80px !important;
@@ -114,10 +119,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* only way I can see to overwrite superslides js forcing element.style onto images quickly */
 .statistic img {
-/*   backface-visibility: visible !important;
-  position: static !important; */
   max-width: 80px !important;
   height: auto !important;
   width: 80px !important;
