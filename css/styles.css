@@ -3,6 +3,11 @@ body {
   margin: 0 auto;
 }
 
+body img {
+  backface-visibility: visible !important;
+  position: static !important;
+}
+
 p {
   font-size: 1rem;
 }
@@ -40,14 +45,21 @@ body {
 
 .dark-blue-box {
   background-color: #6991ac;
+  color: white;
+  padding: 15px;
+  
 }
 
 .blue-grey-box {
   background-color: #67727a;
+  color: white;
+  padding: 15px;
 }
 
 .light-blue-box {
   background-color: #c3d7df;
+  color: white;
+  padding: 15px;
 }
 
 .vertical-align {
@@ -88,8 +100,8 @@ body {
 
 /* only way I can see to overwrite superslides js forcing element.style onto images quickly */
 .p-icon {
-  backface-visibility: visible !important;
-  position: static !important;
+/*   backface-visibility: visible !important;
+  position: static !important; */
   max-width: 80px !important;
   height: auto !important;
   width: 80px !important;
@@ -104,8 +116,8 @@ body {
 
 /* only way I can see to overwrite superslides js forcing element.style onto images quickly */
 .statistic img {
-  backface-visibility: visible !important;
-  position: static !important;
+/*   backface-visibility: visible !important;
+  position: static !important; */
   max-width: 80px !important;
   height: auto !important;
   width: 80px !important;
