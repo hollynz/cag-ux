@@ -7,22 +7,10 @@ body {
   display: none;
 }
 
-
 p {
   font-size: 1rem;
 }
 
-/* .container {
-  white-space: normal;
-  text-wrap: auto;
-} */
-
-/* .container {
-  padding: 10%;
-} */
-
-
-/*! @author | Banjo Mofesola Paul | Chief Developer, Planet NEST | mofesolapaul@planetnest.org | Wednesday, 19th July, 2017 */
 
 html,
 body {
@@ -34,8 +22,14 @@ body {
     overflow: hidden;
 }
 
-/* .cont {
-  max-width: 80%;
-  display: flex;
-  white-space: normal;
-} */
+.breadcrumb-bar {
+  background-color: #67727a; 
+  color: white;
+  padding: 10px 0px;
+  margin-top: 50px;
+}
+
+.breadcrumb-bar p {
+  padding: 0px;
+  margin: 0px;
+}
