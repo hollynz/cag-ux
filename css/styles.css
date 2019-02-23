@@ -57,3 +57,7 @@ body {
   color: #6991ac;
   letter-spacing: 1.5px;
 }
+
+.p-icon {
+  width: 40px !important;
+}
