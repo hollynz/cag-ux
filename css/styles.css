@@ -65,3 +65,9 @@ body {
   height: auto !important;
   width: 80px !important;
 }
+
+.box-shadow {
+  border-bottom: 1px solid #222222;
+  padding: 10px;
+  margin: 20px 0;
+}
