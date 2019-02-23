@@ -18,6 +18,26 @@ body {
     overflow: hidden;
 } */
 
+.dark-grey {
+  color: #222222; 
+}
+
+.blue-grey {
+  color: #67727a;
+}
+
+.dark-blue {
+  color: #6991ac;
+}
+
+.light-blue {
+  color: #c3d7df;
+}
+
+.orange {
+  color: #d75c37;
+}
+
 .vertical-align {
     display: flex;
     align-items: center;
@@ -65,7 +85,6 @@ body {
 
 .statistic {
   text-align: center;
-  color: #6991ac;
   font-size: 12px;
   opacity: 0.8;
   letter-spacing: 2px;
@@ -75,9 +94,9 @@ body {
 .statistic img {
   backface-visibility: visible !important;
   position: static !important;
-  max-width: 60px !important;
+  max-width: 80px !important;
   height: auto !important;
-  width: 60px !important;
+  width: 80px !important;
 }
 
 .box-shadow {
