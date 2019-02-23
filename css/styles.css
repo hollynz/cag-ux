@@ -54,7 +54,7 @@ body {
   letter-spacing: 1.5px;
 }
 
-/* only way I can see to overwrite whatever is forcing element.style onto images */
+/* only way I can see to overwrite superslides js forcing element.style onto images quickly */
 .p-icon {
   backface-visibility: visible !important;
   position: static !important;
@@ -71,7 +71,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* only way I can see to overwrite whatever is forcing element.style onto images */
+/* only way I can see to overwrite superslides js forcing element.style onto images quickly */
 .statistic img {
   backface-visibility: visible !important;
   position: static !important;
