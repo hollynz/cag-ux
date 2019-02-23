@@ -38,6 +38,18 @@ body {
   color: #d75c37;
 }
 
+.dark-blue-box {
+  background-color: #6991ac;
+}
+
+.blue-grey-box {
+  background-color: #67727a;
+}
+
+.light-blue-box {
+  background-color: #c3d7df;
+}
+
 .vertical-align {
     display: flex;
     align-items: center;
