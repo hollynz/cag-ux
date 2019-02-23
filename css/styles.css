@@ -49,12 +49,17 @@ body {
   background-color: #6991ac;
   color: white;
   padding: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .blue-grey-box {
   background-color: #67727a;
   color: white;
   padding: 15px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .light-blue-box {
