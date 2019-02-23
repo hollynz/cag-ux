@@ -34,13 +34,13 @@
   left: 10px;
 }
 .slides-navigation a.next {
-  right: 0;
+  right: 10px;
 }
 
 .slides-pagination {
   position: absolute;
   z-index: 1;
-  bottom: 10;
+  bottom: 50px;
   text-align: center;
   width: 100%;
 }

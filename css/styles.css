@@ -3,16 +3,12 @@ body {
   margin: 0 auto;
 }
 
-.screen {
-  display: none;
-}
-
 p {
   font-size: 1rem;
 }
 
 
-html,
+/* html,
 body {
     height: 100%;
     width: 100%;
@@ -20,7 +16,7 @@ body {
     padding: 0;
     position: relative;
     overflow: hidden;
-}
+} */
 
 .vertical-align {
     display: flex;
