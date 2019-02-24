@@ -1,6 +1,5 @@
 body {
   font-family: 'Raleway', sans-serif;
-  margin: 0 auto;
 }
 
 /* only way I can see to overwrite superslides js forcing element.style onto images quickly */
@@ -14,9 +13,6 @@ p {
   font-size: 1rem;
 }
 
-.slide {
-  height: 100vh;
-}
 /* html,
 body {
     height: 100%;
@@ -81,12 +77,12 @@ body {
   width: 80px!important;
   height: auto!important;
 }
-
+/* 
 .vertical-align {
     display: flex;
     align-items: center;
     height: 80vh;
-}
+} */
 
 
 .breadcrumb-bar {
