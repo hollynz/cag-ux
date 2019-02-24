@@ -11,7 +11,7 @@
     });
 });
 
-var ctx = #("myChart1").getContext('2d');
+var ctx = $("#myChart1");
 var myChart1 = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -45,7 +45,7 @@ var myChart1 = new Chart(ctx, {
     }
 });
 
-var ctx2 = document.getElementById("myChart2").getContext('2d');
+var ctx2 = $("#myChart2");
 var myChart2 = new Chart(ctx2, {
     type: 'bar',
     data: {
