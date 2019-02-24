@@ -1,9 +1,9 @@
-body {
+html, body {
   font-family: 'Raleway', sans-serif;
+  height: 100%;
 }
 
 /* only way I can see to overwrite superslides js forcing element.style onto images quickly */
-
 body img {
   backface-visibility: visible !important;
   position: static !important;
@@ -12,16 +12,6 @@ body img {
 p {
   font-size: 1rem;
 }
-
-/* html,
-body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    overflow: hidden;
-} */
 
 .dark-grey {
   color: #222222; 
@@ -139,10 +129,12 @@ body {
   letter-spacing: 1.5px;
 }
 
-
 .box-shadow {
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
   padding: 10px;
   margin: 20px 0;
 }
 
+.slide {
+  height: 100vh;
+}
