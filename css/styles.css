@@ -72,6 +72,11 @@ p {
   border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+.graph-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
 /* override superslides */
 .box-image {
   max-width: 80px!important;
@@ -157,3 +162,15 @@ p {
   padding-bottom: 5%;
 }
 
+/* bootstrap tab override */
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+ color: #222;
+}
+
+a {
+  color: #6991ac;
+}
+
+a:hover{
+  color: #67727a;
+}
