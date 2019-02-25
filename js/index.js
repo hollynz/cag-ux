@@ -163,13 +163,21 @@ var avgScoreChart = new Chart(ctx4, {
     labels: ["Q1", "Q2", "Q3a", "Q3b", "Q4", "Q5", "Q6"],
     datasets: [{
       label: 'Average scores per question',
-      data: [],
+      data: [1.61, 1.54, 1.69, 1.33, 1.36, 1.84, 1.21],
       backgroundColor: [
         '#d75c37',
         '#67727a',
-        '#c3d7df'
+        '#c3d7df',
+        '#d75c37',
+        '#67727a',
+        '#c3d7df',
+        '#d75c37'
       ],
       borderColor: [
+        '#222222',
+        '#222222',
+        '#222222',
+        '#222222',
         '#222222',
         '#222222',
         '#222222'
@@ -185,7 +193,8 @@ var avgScoreChart = new Chart(ctx4, {
           labelString: 'Score'
         },
         ticks: {
-          beginAtZero:true
+          beginAtZero:true,
+          
         }
       }],
       xAxes: [{
@@ -194,7 +203,13 @@ var avgScoreChart = new Chart(ctx4, {
           labelString: 'Question'
         },
         ticks: {
-          beginAtZero:true
+          beginAtZero:true,
+          fontColor:['rgba(44,44,44,0.8)','rgba(44,44,44,0.8)','rgba(44,44,44,0.8)','rgba(178,31,31,1)','rgba(44,44,44,0.8)','rgba(44,44,44,0.8)','rgba(44,44,44,0.8)'],
+          callback: function(value, index, values) {
+            if (Math.floor(value) === value) {
+              return value;
+            }
+          }
         }
       }]
     },
