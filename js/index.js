@@ -59,11 +59,10 @@ var ageChart = new Chart(ctx1, {
       display: false
     },
     tooltips: {
-        enabled: false
+      enabled: false
     }
   }
 });
-
 var ctx2 = $('#myChart2');
 var usedSiteBeforeChart = new Chart(ctx2, {
   type: 'bar',
@@ -107,9 +106,6 @@ var usedSiteBeforeChart = new Chart(ctx2, {
     }
   }
 });
-
-
-
 var ctx3 = $('#myChart3');
 var mobileCompChart = new Chart(ctx3, {
   type: 'bar',
@@ -155,7 +151,6 @@ var mobileCompChart = new Chart(ctx3, {
     }
   }
 });
-
 var ctx4 = $('#myChart4');
 var avgScoreChart = new Chart(ctx4, {
   type: 'bar',
@@ -165,13 +160,13 @@ var avgScoreChart = new Chart(ctx4, {
       label: 'Average scores per question',
       data: [1.61, 1.54, 1.69, 1.33, 1.36, 1.84, 1.21],
       backgroundColor: [
-        '#d75c37',
+        '#6991ac',
         '#67727a',
         '#c3d7df',
-        '#d75c37',
+        '#6991ac',
         '#67727a',
         '#c3d7df',
-        '#d75c37'
+        '#6991ac'
       ],
       borderColor: [
         '#222222',
@@ -194,7 +189,11 @@ var avgScoreChart = new Chart(ctx4, {
         },
         ticks: {
           beginAtZero:true,
-          
+          callback: function(value, index, values) {
+            if (Math.floor(value) === value) {
+              return value;
+            }
+          }
         }
       }],
       xAxes: [{
@@ -204,12 +203,6 @@ var avgScoreChart = new Chart(ctx4, {
         },
         ticks: {
           beginAtZero:true,
-          fontColor:['rgba(44,44,44,0.8)','rgba(44,44,44,0.8)','rgba(44,44,44,0.8)','rgba(178,31,31,1)','rgba(44,44,44,0.8)','rgba(44,44,44,0.8)','rgba(44,44,44,0.8)'],
-          callback: function(value, index, values) {
-            if (Math.floor(value) === value) {
-              return value;
-            }
-          }
         }
       }]
     },
