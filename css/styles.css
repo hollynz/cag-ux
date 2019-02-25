@@ -148,6 +148,10 @@ p {
   letter-spacing: 1.5px;
 }
 
+.insights-italic{
+  font-size: 15px;
+}
+
 .infog img {
   max-width: 80% !important;
   height: auto !important;
@@ -162,6 +166,12 @@ p {
 
 #myChart4 {
   padding-bottom: 5%;
+}
+
+.whats-on-img {
+  max-width: 40% !important;
+  height: auto !important;
+  padding-top: 20px;
 }
 
 /* bootstrap tab override */
