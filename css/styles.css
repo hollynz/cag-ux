@@ -168,6 +168,12 @@ p {
 }
 
 /* bootstrap tab override */
+.navbar {
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 0;
+  padding-right: 0;
+}
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
  color: #222;
 }
