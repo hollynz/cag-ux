@@ -22,7 +22,7 @@ var ageChart = new Chart(ctx1, {
         '#d75c37',
         '#67727a',
         '#c3d7df',
-        '#67727a;'
+        '#222222'
       ],
       borderColor: [
         '#222222',
@@ -59,16 +59,12 @@ var ageChart = new Chart(ctx1, {
       display: false
     },
     tooltips: {
-      callbacks: {
-        label: function(tooltipItem) {
-          return tooltipItem.xLabel;
-        }
-      }
+        enabled: false
     }
   }
 });
 
-var ctx2 = $("#myChart2");
+var ctx2 = $('#myChart2');
 var usedSiteBeforeChart = new Chart(ctx2, {
   type: 'bar',
   data: {
@@ -105,6 +101,9 @@ var usedSiteBeforeChart = new Chart(ctx2, {
     },
     legend: {
       display: false
+    },
+    tooltips: {
+      enabled: false
     }
   }
 });
@@ -112,7 +111,7 @@ var usedSiteBeforeChart = new Chart(ctx2, {
 
 
 var ctx3 = $('#myChart3');
-var mobileCompGraph = new Chart(ctx3, {
+var mobileCompChart = new Chart(ctx3, {
   type: 'bar',
   data: {
     labels: ["Mobile", "Computer", "Both"],
@@ -150,6 +149,64 @@ var mobileCompGraph = new Chart(ctx3, {
     },
     legend: {
       display: false
+    },
+    tooltips: {
+      enabled: false
+    }
+  }
+});
+
+var ctx4 = $('#myChart4');
+var avgScoreChart = new Chart(ctx4, {
+  type: 'bar',
+  data: {
+    labels: ["Q1", "Q2", "Q3a", "Q3b", "Q4", "Q5", "Q6"],
+    datasets: [{
+      label: 'Average scores per question',
+      data: [],
+      backgroundColor: [
+        '#d75c37',
+        '#67727a',
+        '#c3d7df'
+      ],
+      borderColor: [
+        '#222222',
+        '#222222',
+        '#222222'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    scales: {
+      yAxes: [{
+        scaleLabel: {
+          display: true,
+          labelString: 'Score'
+        },
+        ticks: {
+          beginAtZero:true
+        }
+      }],
+      xAxes: [{
+        scaleLabel: {
+          display: true,
+          labelString: 'Question'
+        },
+        ticks: {
+          beginAtZero:true
+        }
+      }]
+    },
+    title: {
+      display: true,
+      text: 'Average scores per question'
+    },
+    legend: {
+      display: false
+    },
+    tooltips: {
+      enabled: false
     }
   }
 });
