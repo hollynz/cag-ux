@@ -36,16 +36,24 @@ var myChart1 = new Chart(ctx, {
   options: {
     scales: {
       yAxes: [{
-        display: true,
-        title: '',
+        scaleLabel: {
+          display: true,
+          labelString: '%'
+        },
         ticks: {
           beginAtZero: true
+        }
+      }],
+      xAxes: [{
+        scaleLabel: {
+          display: true,
+          labelString: 'Age'
         }
       }]
     },
     title: {
       display: true,
-      text: 'Participant Ages'
+      text: 'Participant ages'
     },
     legend: {
       display: false
@@ -82,13 +90,26 @@ var myChart2 = new Chart(ctx2, {
   options: {
     scales: {
       yAxes: [{
+        scaleLabel: {
+          display: true,
+          labelString: '%'
+        },
         ticks: {
           beginAtZero:true
         }
       }]
+    },
+    title: {
+      display: true,
+      text: 'Whether participant had used current CAG website before'
+    },
+    legend: {
+      display: false
     }
   }
 });
+
+
 
 var ctx3 = document.getElementById("myChart3").getContext('2d');
 var myChart3 = new Chart(ctx3, {
@@ -114,10 +135,21 @@ var myChart3 = new Chart(ctx3, {
   options: {
     scales: {
       yAxes: [{
+        scaleLabel: {
+          display: true,
+          labelString: '%'
+        },
         ticks: {
           beginAtZero:true
         }
       }]
+    },
+    title: {
+      display: true,
+      text: 'Mobile vs computer preference'
+    },
+    legend: {
+      display: false
     }
   }
 });
