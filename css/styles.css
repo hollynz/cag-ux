@@ -1,6 +1,7 @@
 html, body {
   font-family: 'Raleway', sans-serif;
   height: 100%;
+  padding-top: 2%;
 }
 
 /* only way I can see to overwrite superslides js forcing element.style onto images quickly */
@@ -87,7 +88,7 @@ p {
 .vertical-align {
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 70vh;
 }
 
 
