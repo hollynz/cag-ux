@@ -10,8 +10,8 @@ $(function() {
   $('#slides-4').superslides({
   });
 });
-var ctx = $("#myChart1");
-var myChart1 = new Chart(ctx, {
+var ctx1 = $("#myChart1");
+var ageChart = new Chart(ctx1, {
   type: 'bar',
   data: {
     labels: ["<18", "18–25", "26–41", "41+"],
@@ -69,7 +69,7 @@ var myChart1 = new Chart(ctx, {
 });
 
 var ctx2 = $("#myChart2");
-var myChart2 = new Chart(ctx2, {
+var usedSiteBeforeChart = new Chart(ctx2, {
   type: 'bar',
   data: {
     labels: ["Yes", "No"],
@@ -111,8 +111,8 @@ var myChart2 = new Chart(ctx2, {
 
 
 
-var ctx3 = document.getElementById("myChart3").getContext('2d');
-var myChart3 = new Chart(ctx3, {
+var ctx3 = $('#myChart3');
+var mobileCompGraph = new Chart(ctx3, {
   type: 'bar',
   data: {
     labels: ["Mobile", "Computer", "Both"],
