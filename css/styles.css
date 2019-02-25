@@ -33,6 +33,17 @@ p {
   color: #d75c37;
 }
 
+
+.team-img img {
+  max-width: 60% !important;
+  height: auto !important;
+}
+
+.yb-logo img {
+  max-width: 40% !important;
+  height: auto !important;
+}
+
 .dark-blue-box {
   background-color: #6991ac;
   color: white;
@@ -145,3 +156,4 @@ p {
 #myChart4 {
   padding-bottom: 5%;
 }
+
