@@ -10,8 +10,10 @@ $(function() {
   $('#slides-4').superslides({
   });
 });
-var ctx1 = $("#myChart1");
-var ageChart = new Chart(ctx1, {
+
+$(document).ready(function() {
+  var ctx1 = $("#myChart1");
+  var ageChart = new Chart(ctx1, {
   type: 'bar',
   data: {
     labels: ["<18", "18–25", "26–41", "41+"],
@@ -218,3 +220,6 @@ var avgScoreChart = new Chart(ctx4, {
     }
   }
 });
+});
+
+
