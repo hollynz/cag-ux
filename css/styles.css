@@ -165,8 +165,17 @@ p {
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
+.bread-super-crumby {
+
+}
+
 .breadcrumbs img {
   max-width: 30% !important;
+  height: auto !important;
+}
+
+.breadcrumbs-success img {
+  max-width: 25% !important;
   height: auto !important;
 }
 
@@ -178,11 +187,7 @@ p {
   padding-right: 5%;
   padding-bottom: 0;
   justify-content: space-between;
-  background: #fff; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, violet , blue, cyan, green, yellow, orange); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, violet , blue, cyan, green, yellow, orange); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, violet , blue, cyan, green, yellow, orange); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, violet , blue, cyan, green, yellow, orange); /* Standard syntax (must be last) */
+  background: #c3d7df;
 }
 .navbar img {
   width: 10%;
