@@ -179,6 +179,12 @@ p {
   height: auto !important;
 }
 
+.column-compare img {
+  max-width: 40% !important;
+  height: auto !important;
+}
+
+
 /* bootstrap tab override */
 .navbar {
   width: 100%;
