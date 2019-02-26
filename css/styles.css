@@ -170,7 +170,7 @@ p {
 }
 
 .breadcrumbs img {
-  max-width: 50% !important;
+  max-width: 45% !important;
   height: auto !important;
 }
 
@@ -189,11 +189,14 @@ p {
   justify-content: space-between;
   background: #d75c37;
 }
-.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+.navbar a {
   color: #fff;
 }
-.navbar a{
-  color: #fff;
+.navbar a:hover {
+  color: #67727a;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: #222;
 }
 a {
   color: #6991ac;
