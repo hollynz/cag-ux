@@ -190,7 +190,7 @@ p {
   background: #222;
 }
 .navbar-brand {
-  
+  padding-bottom: 30px;
 }
 .navbar a {
   color: #fff;
