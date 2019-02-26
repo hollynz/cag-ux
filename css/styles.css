@@ -187,13 +187,16 @@ p {
   padding-right: 5%;
   padding-bottom: 0;
   justify-content: space-between;
-  background: #d75c37;
+  background: #222;
+}
+.navbar-brand {
+  
 }
 .navbar a {
   color: #fff;
 }
 .navbar a:hover {
-  color: #67727a;
+  color: #c3d7df;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
   color: #222;
