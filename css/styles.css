@@ -170,12 +170,12 @@ p {
 }
 
 .breadcrumbs img {
-  max-width: 30% !important;
+  max-width: 50% !important;
   height: auto !important;
 }
 
 .breadcrumbs-success img {
-  max-width: 25% !important;
+  max-width: 40% !important;
   height: auto !important;
 }
 
@@ -187,13 +187,13 @@ p {
   padding-right: 5%;
   padding-bottom: 0;
   justify-content: space-between;
-  background: #c3d7df;
-}
-.navbar img {
-  width: 10%;
+  background: #d75c37;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-  color: #222;
+  color: #fff;
+}
+.navbar a{
+  color: #fff;
 }
 a {
   color: #6991ac;
