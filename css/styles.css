@@ -37,6 +37,7 @@ p {
 .yb-logo img {
   max-width: 40% !important;
   height: auto !important;
+  margin-left: auto;
 }
 .dark-blue-box {
   background-color: #6991ac;
@@ -135,6 +136,11 @@ p {
   padding: 10px;
   margin: 20px 0;
 }
+
+.box-shadow-2{
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
 #myChart4 {
   padding-bottom: 5%;
 }
@@ -150,6 +156,7 @@ p {
 .column-compare img {
   max-width: 80% !important;
   height: auto !important;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 /* bootstrap tab override */
 .navbar {
