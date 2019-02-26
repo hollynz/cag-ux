@@ -73,9 +73,9 @@ p {
   width: 80px!important;
   height: auto!important;
 }
-.team-img {
-  max-width: 100%!important;
-  width: 100%!important;
+.team-testing-image {
+  max-width: 90%!important;
+  width: 90%!important;
   height: auto!important;
 }
 .vertical-align {
@@ -106,6 +106,7 @@ p {
   font-size: 62px; 
   color: #6991ac;
   letter-spacing: 1.5px;
+  margin-bottom: 1%;
 }
 .p-icon {
   max-width: 80px !important;
