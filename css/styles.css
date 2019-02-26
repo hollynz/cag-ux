@@ -2,53 +2,42 @@ html, body {
   font-family: 'Raleway', sans-serif;
   height: 100%;
 }
-
 /* only way I can see to overwrite superslides js forcing element.style onto images quickly */
 body img {
   backface-visibility: visible !important;
   position: static !important;
 }
-
 p {
   font-size: 1rem;
 }
-
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
   margin-top: 0;
 }
-
 .dark-grey {
   color: #222222; 
 }
-
 .blue-grey {
   color: #67727a;
 }
-
 .dark-blue {
   color: #6991ac;
 }
-
 .light-blue {
   color: #c3d7df;
 }
-
 .orange {
   color: #d75c37;
 }
-
 .team-img img {
   max-width: 60% !important;
   height: auto !important;
 }
-
 .yb-logo img {
   max-width: 40% !important;
   height: auto !important;
 }
-
 .dark-blue-box {
   background-color: #6991ac;
   color: white;
@@ -56,7 +45,6 @@ p {
   font-size: 15px;
   letter-spacing: 1.5px;
 }
-
 .blue-grey-box {
   background-color: #67727a;
   color: white;
@@ -64,7 +52,6 @@ p {
   font-size: 15px;
   letter-spacing: 1.5px;
 }
-
 .light-blue-box {
   background-color: #c3d7df;
   color: white;
@@ -72,35 +59,29 @@ p {
   font-size: 15px;
   letter-spacing: 1.5px;
 }
-
 .border-left {
   border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
-
 .graph-title {
   font-size: 12px;
   font-weight: bold;
 }
-
 /* override superslides */
 .box-image {
   max-width: 80px!important;
   width: 80px!important;
   height: auto!important;
 }
-
 .vertical-align {
   display: flex;
   align-items: center;
   height: 70vh;
 }
-
 .breadcrumb-bar {
   background-color: #67727a; 
   color: white;
   padding: 7px 0px;
 }
-
 .breadcrumb-bar p {
   padding: 0px;
   margin: 0px;
@@ -108,83 +89,68 @@ p {
   font-size: 12px;
   letter-spacing: 1.5px;
 }
-
 .slide-number p {
   padding-top: 5px;
   font-size: 12px;
   color: #d75c37;
   letter-spacing: 1.5px;
 }
-
 .slide-title {
   font-family: 'EB Garamond', serif;
   font-size: 62px; 
   color: #6991ac;
   letter-spacing: 1.5px;
 }
-
 .p-icon {
   max-width: 80px !important;
   height: auto !important;
   width: 80px !important;
 }
-
 .statistic {
   font-size: 12px;
   opacity: 0.8;
   letter-spacing: 2px;
 }
-
 .statistic img {
   max-width: 80px !important;
   height: auto !important;
   width: 80px !important;
   padding-bottom: 20px;
 }
-
 .results-summary-p {
   font-size: 26px; 
   font-family: 'EB Garamond', serif;
   letter-spacing: 1.5px;
 }
-
 .insights-italic{
   font-size: 15px;
 }
-
 .infog img {
   max-width: 80% !important;
   height: auto !important;
   padding: 10px 0;
 }
-
 .box-shadow {
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
   padding: 10px;
   margin: 20px 0;
 }
-
 #myChart4 {
   padding-bottom: 5%;
 }
-
 .whats-on-img {
   max-width: 40% !important;
   height: auto !important;
   padding-top: 20px;
 }
-
 .date-picker-img {
   max-width: 60% !important;
   height: auto !important;
 }
-
 .column-compare img {
-  max-width: 40% !important;
+  max-width: 80% !important;
   height: auto !important;
 }
-
-
 /* bootstrap tab override */
 .navbar {
   width: 100%;
@@ -193,19 +159,21 @@ p {
   padding-right: 5%;
   padding-bottom: 0;
   justify-content: space-between;
-  background-color: 
+  background: #fff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, violet , blue, cyan, green, yellow, orange); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, violet , blue, cyan, green, yellow, orange); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, violet , blue, cyan, green, yellow, orange); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, violet , blue, cyan, green, yellow, orange); /* Standard syntax (must be last) */
 }
 .navbar img {
   width: 10%;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
- color: #222;
+  color: #222;
 }
-
 a {
   color: #6991ac;
 }
-
 a:hover{
   color: #67727a;
 }
