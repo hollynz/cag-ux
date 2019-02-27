@@ -52,8 +52,8 @@ p {
   padding: 15px;
   font-size: 15px;
   letter-spacing: 1.5px;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .border-left {
@@ -67,6 +67,11 @@ p {
 .box-image {
   max-width: 80px!important;
   width: 80px!important;
+  height: auto!important;
+}
+.box-image-smaller {
+  max-width: 50px!important;
+  width: 50px!important;
   height: auto!important;
 }
 .team-testing-image {
