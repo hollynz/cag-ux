@@ -107,7 +107,7 @@ p {
   font-size: 62px; 
   color: #6991ac;
   letter-spacing: 1.5px;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 .p-icon {
   max-width: 80px !important;
@@ -204,9 +204,11 @@ p {
   justify-content: space-between;
   background: #222;
 }
+
 .navbar-brand {
   padding-bottom: 30px;
 }
+
 .navbar a {
   color: #fff;
 }
@@ -233,6 +235,7 @@ p {
 a {
   color: #6991ac;
 }
+
 a:hover{
   color: #67727a;
 }
@@ -240,6 +243,6 @@ a:hover{
 .demo-graphs li .active {
   background-color: #fff !important;
   color: #222 !important;  
-  border-color: #dee2e6 #dee2e6 #fff !important;
   border: 1px solid transparent !important;
+  border-color: #dee2e6 #dee2e6 #fff !important;
 }
