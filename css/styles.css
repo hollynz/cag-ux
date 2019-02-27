@@ -186,6 +186,14 @@ p {
   height: auto !important;
 }
 
+.bottom-p {
+  margin-top: 40px;
+}
+
+.top-as {
+  margin-bottom: 40px;
+}
+
 /* bootstrap tab override */
 .navbar {
   width: 100%;
@@ -208,6 +216,10 @@ p {
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
   color: #222;
 }
+
+.nav-tabs {
+}
+
 a {
   color: #6991ac;
 }
