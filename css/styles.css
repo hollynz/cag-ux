@@ -39,14 +39,14 @@ p {
   height: auto !important;
   margin-left: auto;
 }
-.dark-blue-box {
+.orange-box {
   background-color: rgba(215,92,55, 1);
   color: white;
   padding: 15px;
   font-size: 15px;
   letter-spacing: 1.5px;
 }
-.blue-grey-box {
+.orange-box-middle {
   background-color: rgba(215,92,55, 1);
   color: white;
   padding: 15px;
@@ -55,13 +55,7 @@ p {
   margin-top: 1%;
   margin-bottom: 1%;
 }
-.light-blue-box {
-  background-color: rgba(215,92,55, 1);
-  color: white;
-  padding: 15px;
-  font-size: 15px;
-  letter-spacing: 1.5px;
-}
+
 .border-left {
   border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
