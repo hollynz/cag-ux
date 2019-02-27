@@ -213,6 +213,7 @@ p {
 .navbar a:hover {
   color: #c3d7df;
 }
+
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
   color: #fff;
   border: none;
@@ -226,7 +227,7 @@ p {
 }
 
 .nav-tabs .nav-link {
-  border: 1px ;
+  border: none;
 }
 
 a {
@@ -234,4 +235,11 @@ a {
 }
 a:hover{
   color: #67727a;
+}
+
+.demo-graphs li .active {
+  background-color: #fff !important;
+  color: #222 !important;  
+  border-color: #dee2e6 #dee2e6 #fff !important;
+  border: 1px solid transparent !important;
 }
